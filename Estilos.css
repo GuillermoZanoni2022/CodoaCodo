@@ -1,0 +1,74 @@
+.encabeza{
+background-color: rgb(90, 88, 88);
+
+font-size: 80%;
+align-items: center;
+}
+body{
+    margin:0px;
+    padding:0px;
+}
+.sinpad{
+    padding: 0px;
+}
+.texto_imagen{
+color:white;
+}
+.filtro{
+    background-color: rgba(0, 0, 0, 0.562);
+    width: 100%;
+    height: 100%;
+}
+.fondo_gris{
+    background-color: rgb(65, 64, 64);
+}
+.dotted{
+    border-bottom: 1px dashed #999;
+    text-decoration: none; 
+  }
+.logo{
+    width:87px; height:50px;margin-left: 50px;margin-top: 10px;margin-bottom: 10px;
+}
+
+.margen_variable{
+
+    margin-right: 250px;
+}
+
+.posi{
+    margin-left: 700px; margin-top: 300px; width:50%;
+}
+
+.texto_cartas{font-size: 100%;}
+
+.fichas{
+
+    display:flex
+}
+
+@media screen and (max-width: 1050px) {
+    .margen_variable{
+
+        margin-right: 0px;
+    }
+    .logo{
+        width:87px; height:50px;margin-left: 5px;margin-top: 10px;margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 1200px) {.posi{margin-left: 600px; margin-top: 250px; width: 50%}}
+
+@media screen and (max-width: 1100px) {.posi{margin-left: 500px; margin-top: 200px; width: 50%}}
+@media screen and (max-width: 1000px) {.posi{margin-left: 400px; margin-top: 150px; width: 50%}.texto_imagen{color:white;font-size:95% }.texto_cartas{font-size: 95%}}
+@media screen and (max-width: 900px) {.posi{margin-left: 300px; margin-top: 100px; width: 50%}.texto_imagen{color:white;font-size:85% }.texto_cartas{font-size: 85%}}
+
+@media screen and (max-width: 800px) {
+    .posi{margin-left: 200px; margin-top: 50px; width: 55%}
+    .texto_imagen{color:white;font-size:80% }
+    .texto_cartas{font-size: 80%}
+    .fichas{display: block;}
+}
+@media screen and (max-width: 700px) {.posi{margin-left: 200px; margin-top: 10px; width: 60%}.texto_imagen{color:white;font-size:75% }.texto_cartas{font-size: 75%}}
+@media screen and (max-width: 600px) {.posi{margin-left: 200px; margin-top: 5px; width: 60%}.texto_imagen{color:white;font-size:65% }.texto_cartas{font-size: 65%}}
+@media screen and (max-width: 600px) {.posi{margin-left: 170px; margin-top: 5px; width: 65%}.texto_imagen{color:white;font-size:65% }.texto_cartas{font-size: 65%}}
+@media screen and (max-width: 500px) {.posi{margin-left: 130px; margin-top: 5px; width: 80%}.texto_imagen{color:white;font-size:65% }.texto_cartas{font-size: 60%}}
+@media screen and (max-width: 500px) {.posi{margin-left: 50px; margin-top: 5px; width: 90%}.texto_imagen{color:white;font-size:65% }.texto_cartas{font-size: 55%}}
